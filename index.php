@@ -1,4 +1,4 @@
-<?php session_start();?> 
+﻿<?php session_start();?> 
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,7 +32,7 @@ if(isset($_SESSION["session_username"])):
     $username = $_SESSION["session_username"];
     ?>
     <div id="welcome">
-    <h2> <a> <span class="welcome">Welcome</a> <a><?php echo $_SESSION['session_username'];?></a> </span></h2>
+    <h2> <a> <span class="welcome on site">Welcome</a> <a><?php echo $_SESSION['session_username'];?></a> </span></h2>
       <p class="exit"><a href="logout.php">Exit</a></p>
     </div>
 
